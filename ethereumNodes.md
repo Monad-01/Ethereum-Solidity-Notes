@@ -24,3 +24,11 @@
     - No third-party can interfere and stop anyone else from using the Ethereum network.
   - More private than web2
     - No need to provide identity to have a wallet and transfer money or run smart contracts
+
+--------------------
+
+## What are Ethereum Nodes
+
+- Ethereum is a peer-to-peer network of computers named Ethereum Nodes or Clients. Anyone can run an Ethereum node. There are no special prerequisites to run them.
+
+  
