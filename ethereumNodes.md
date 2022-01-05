@@ -9,7 +9,7 @@
 
     - *Note*: The name of the blockchain is Ethereum. The name of the cryptocurrency is Ether or Eth.<br><br>
 
-- In summary, Ethereum is used to send digital money called Eth ***OR*** run decentralized  applications called smart contracts.
+- In summary, Ethereum is used to send digital money called Eth ***OR*** run decentralized applications called smart contracts.
 
 - Ethereum is:
     - Decentralized
