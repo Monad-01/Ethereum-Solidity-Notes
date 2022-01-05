@@ -15,9 +15,12 @@
     - Decentralized
         - No central company or entity could shut down the Ethereum applications
     - Immutable
+        - In the case of classical applications, data is stored in an SQL database, anybody that has rights can run SQL statements such as update or delete and modify the data.
+        - However on Ethereum, anybody can send transactions to the blockchain. And when those transactions are confirmed, they cannot be reverted.
     - Unstoppable
         - Once a smart contract (An agreement translated into code) is deployed on the Ethereum blockchain, it runs forever and cannot be stopped
     - Censorship-free
         - No third-party can interfere and stop anyone else from using the Ethereum network. 
     - More private than web2
+        - No need to provide identity to have a wallet and transfer money or run smart contracts
     - No downtime
