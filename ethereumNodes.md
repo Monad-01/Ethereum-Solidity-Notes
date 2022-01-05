@@ -31,8 +31,23 @@
 
 - Ethereum is a peer-to-peer network of computers named Ethereum Nodes or Clients. Anyone can run an Ethereum node. There are no special prerequisites to run them.
 
-- Thousands of nodes that communicate with each other make up the ethereum blockchain. Most of the  clients on the mainnet run *Geth* on Linux. *Geth* (Go Ethereum), was programmed in Go programming language and is one of the original implementations of the Ethereum protocol.
+- An Ethereum node runs a VM named EVM and runs applications (EVM bytecode) based on a gobal consensus mechanism. This EVM has its own micorkernal, stack, memory, and storage.
 
+- Thousands of nodes that communicate with each other make up the ethereum blockchain. Most of the  clients on the mainnet run *Geth* on Linux. *Geth* (Go Ethereum), was programmed in Go programming language and is one of the original implementations of the Ethereum protocol.
+  
+- There are also 3 Types of Nodes:
+  - Full nodes: Stores locally a copy of the entire blockchain, participates in the block validation and veriifies all blocks and states
+  
+  - Light nodes: Stores only the header chain and requests everything else, and cvan verify the validity of the data against the states in the block headers. 
+    - These light node clients are useful for low capacity devices which cannot afford to store gigabytes of blocking data.
+
+  - Archive nodes: Stores everything kept in the full node and builts an archive of historical states.
+    - It requires terabytes of disk space, which makes archive nodes less attractive for the average users.
+
+- There are new clients for Ethereum 2.0 that run the Beacon and the Shard Chains and support the new proof-of-stake consensus mechanism.
+  
+- There are also many different Ethereum Networks: Main Net, Test Nets (Rinkeby, Kovan), and other Private Ethereum Blockchains.
+  
 ### How do we communicate with the Ethereum Network?
 
 - As stated above, ***Geth*** has been one of the main ways users have been able to communicate with one another in the Ethereum mainnet.  However, due to Linux being Linux, there have been other implementations that have allowed users to communicate with the network.
