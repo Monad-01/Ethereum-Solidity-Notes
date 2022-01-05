@@ -31,4 +31,10 @@
 
 - Ethereum is a peer-to-peer network of computers named Ethereum Nodes or Clients. Anyone can run an Ethereum node. There are no special prerequisites to run them.
 
-- Thousands of nodes that communicate with each other make up the ethereum blockchain. Most of the  clients on the mainnet run *Geth* on Linux. *Geth* (Go Ethereum), was programmed in Go programming language and is one of the original implementations of the Ethereum protocol. 
+- Thousands of nodes that communicate with each other make up the ethereum blockchain. Most of the  clients on the mainnet run *Geth* on Linux. *Geth* (Go Ethereum), was programmed in Go programming language and is one of the original implementations of the Ethereum protocol.
+
+### How do we communicate with the Ethereum Network?
+
+- As stated above, ***Geth*** has been one of the main ways users have been able to communicate with one another in the Ethereum mainnet.  However, due to Linux being Linux, there have been other implementations that have allowed users to communicate with the network.
+
+- Web3.js a collection of libraries that allows webapplications to interact with an Ethereum node. It's the official JavaScript API developed by the core Ethereum team. It is one of the of
