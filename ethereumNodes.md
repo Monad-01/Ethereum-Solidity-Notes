@@ -4,7 +4,7 @@
 
 - The Ethereum Blockchain is an immutable public database that stores records of all the transactions that have ever taken place. This ensures that if someone were to try to change something (Let's say illegally forge money to their name), we will be able to know if there has been tampering with the blockchain, and it will be able to resist any of those changes through standard network checks.
 
-- Ethereum builds on Bitcoin's innovation, with its own improvements  
+- Ethereum builds on Bitcoin's innovation, with its own improvements.  
 
 - Ethereum allows you to send ___Ether___ to run smart contracts which are decentralized applications
 
@@ -38,7 +38,7 @@
 - There are also 3 Types of Nodes:
   - Full nodes: Stores locally a copy of the entire blockchain, participates in the block validation and veriifies all blocks and states
   
-  - Light nodes: Stores only the header chain and requests everything else, and cvan verify the validity of the data against the states in the block headers. 
+  - Light nodes: Stores only the header chain and requests everything else, and cvan verify the validity of the data against the states in the block headers.
     - These light node clients are useful for low capacity devices which cannot afford to store gigabytes of blocking data.
 
   - Archive nodes: Stores everything kept in the full node and builts an archive of historical states.
@@ -48,8 +48,10 @@
   
 - There are also many different Ethereum Networks: Main Net, Test Nets (Rinkeby, Kovan), and other Private Ethereum Blockchains.
   
-### How do we communicate with the Ethereum Network?
+### **How do we communicate with the Ethereum Network?**
 
 - As stated above, ***Geth*** has been one of the main ways users have been able to communicate with one another in the Ethereum mainnet.  However, due to Linux being Linux, there have been other implementations that have allowed users to communicate with the network.
 
-- Web3.js a collection of libraries that allows webapplications to interact with an Ethereum node. It's the official JavaScript API developed by the core Ethereum team. It is one of the of
+- Web3.js a collection of libraries that allows webapplications to interact with an Ethereum node. It's the official JavaScript API developed by the core Ethereum team. It is going to be the main way we can communicate with the blockchain from a normal website.
+
+- Wallets also are pieces of software that we use to communicate with the Ethereum mainnet. The wallet has access to the private key, which controls the Ethereum account and can interact with Ethereum Decentralized Applications.  
