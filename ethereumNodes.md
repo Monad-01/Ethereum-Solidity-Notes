@@ -65,10 +65,26 @@ There are two types of Ethereum Accounts
 1. Externally Owned Account (EOA)
    - Controlled by a private key and identified by an unique address
    - It holds an ETH balance and has no associated code
-   - Used for holding, sending, and receiving EWTH and for interacting with smart contracts (deployment, calling functions, etc). <br><br>
+   - Used for holding, sending, and receiving EWTH and for interacting with smart contracts (deployment, calling functions, etc).
+   - Examples of an EOA are wallets like Metamask or MEW (MyEtherWallet).  <br><br>
 
 2. Contract Account (CA)
    - Controlled by the contract code
    - Has a unique address but doesn't have a public or a private key
    - It's an autonomous agent and it's code execution is triggered by receiving a transaction or a message (call) from another contract of an EOA
    - It holds an ETH balance like an EOA
+   - **NOTE: SINCE A CONTRACT ACCOUNT USES NETWORK STORAGE, CREATING A CONTRACT ACCOUNT COSTS GAS**
+
+### **Components of an Ethereum Account**
+
+1. Nonce: Counter that indicates the number of transactions sent from the account (it ensures that the same transaction isn't submitted twice)  
+
+2. Balance  
+
+3. Account Address
+
+4. Account Private & Public Key (Only for EOA)
+
+5. Code (Only for the contract account). This is the immutable EVM bytecode that gets triggered when transactions are made with the contract account
+
+6. Storage (Only for the contaact account, empty by default).
