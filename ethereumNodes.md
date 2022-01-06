@@ -55,3 +55,12 @@
 - Web3.js a collection of libraries that allows webapplications to interact with an Ethereum node. It's the official JavaScript API developed by the core Ethereum team. It is going to be the main way we can communicate with the blockchain from a normal website.
 
 - Wallets also are pieces of software that we use to communicate with the Ethereum mainnet. The wallet has access to the private key, which controls the Ethereum account and can interact with Ethereum Decentralized Applications.  
+
+---
+
+## What Are Ethereum Accounts
+
+There are two types of Ethereum Accounts
+
+1. Externally Owned Account (EOA)
+2. Contract Account (CA)
