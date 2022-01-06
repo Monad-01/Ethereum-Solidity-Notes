@@ -25,7 +25,7 @@
   - More private than web2
     - No need to provide identity to have a wallet and transfer money or run smart contracts
 
---------------------
+---
 
 ## What are Ethereum Nodes
 
