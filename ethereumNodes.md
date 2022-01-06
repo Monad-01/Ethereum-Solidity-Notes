@@ -31,17 +31,17 @@
 
 - Ethereum is a peer-to-peer network of computers named Ethereum Nodes or Clients. Anyone can run an Ethereum node. There are no special prerequisites to run them.
 
-- An Ethereum node runs a VM named EVM and runs applications (EVM bytecode) based on a gobal consensus mechanism. This EVM has its own micorkernal, stack, memory, and storage.
+- An Ethereum node runs a VM named EVM and runs applications (EVM bytecode) based on a global consensus mechanism. This EVM has its own microkernal, stack, memory, and storage.
 
 - Thousands of nodes that communicate with each other make up the ethereum blockchain. Most of the  clients on the mainnet run *Geth* on Linux. *Geth* (Go Ethereum), was programmed in Go programming language and is one of the original implementations of the Ethereum protocol.
   
 - There are also 3 Types of Nodes:
-  - Full nodes: Stores locally a copy of the entire blockchain, participates in the block validation and veriifies all blocks and states
+  - Full nodes: Stores locally a copy of the entire blockchain, participates in the block validation and verifies all blocks and states
   
-  - Light nodes: Stores only the header chain and requests everything else, and cvan verify the validity of the data against the states in the block headers.
+  - Light nodes: Stores only the header chain and requests everything else, and can verify the validity of the data against the states in the block headers.
     - These light node clients are useful for low capacity devices which cannot afford to store gigabytes of blocking data.
 
-  - Archive nodes: Stores everything kept in the full node and builts an archive of historical states.
+  - Archive nodes: Stores everything kept in the full node and builds an archive of historical states.
     - It requires terabytes of disk space, which makes archive nodes less attractive for the average users.
 
 - There are new clients for Ethereum 2.0 that run the Beacon and the Shard Chains and support the new proof-of-stake consensus mechanism.
@@ -52,7 +52,7 @@
 
 - As stated above, ***Geth*** has been one of the main ways users have been able to communicate with one another in the Ethereum mainnet.  However, due to Linux being Linux, there have been other implementations that have allowed users to communicate with the network.
 
-- Web3.js a collection of libraries that allows webapplications to interact with an Ethereum node. It's the official JavaScript API developed by the core Ethereum team. It is going to be the main way we can communicate with the blockchain from a normal website.
+- Web3.js a collection of libraries that allows Web Applications to interact with an Ethereum node. It's the official JavaScript API developed by the core Ethereum team. It is going to be the main way we can communicate with the blockchain from a normal website.
 
 - Wallets also are pieces of software that we use to communicate with the Ethereum mainnet. The wallet has access to the private key, which controls the Ethereum account and can interact with Ethereum Decentralized Applications.  
 
@@ -65,7 +65,7 @@ There are two types of Ethereum Accounts
 1. Externally Owned Account (EOA)
    - Controlled by a private key and identified by an unique address
    - It holds an ETH balance and has no associated code
-   - Used for holding, sending, and receiving EWTH and for interacting with smart contracts (deployment, calling functions, etc).
+   - Used for holding, sending, and receiving ETH and for interacting with smart contracts (deployment, calling functions, etc).
    - Examples of an EOA are wallets like Metamask or MEW (MyEtherWallet).  <br><br>
 
 2. Contract Account (CA)
@@ -87,4 +87,4 @@ There are two types of Ethereum Accounts
 
 5. Code (Only for the contract account). This is the immutable EVM bytecode that gets triggered when transactions are made with the contract account
 
-6. Storage (Only for the contaact account, empty by default).
+6. Storage (Only for the contract account, empty by default).
