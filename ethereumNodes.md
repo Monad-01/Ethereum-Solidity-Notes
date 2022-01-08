@@ -87,4 +87,4 @@ There are two types of Ethereum Accounts
 
 5. Code (Only for the contract account). This is the immutable EVM bytecode that gets triggered when transactions are made with the contract account
 
-6. Storage (Only for the contract account, empty by default)  
+6. Storage (Only for the contract account, empty by default).  
