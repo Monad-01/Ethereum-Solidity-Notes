@@ -100,3 +100,7 @@ There are two types of Ethereum Accounts
 - There is a lower-case address version and partial upper-case version that also contains a checksum.
 
 ***Maybe add something about the private key here. I forgot tbh...
+
+### **Behind the Scenes of a Transaction**
+
+- So whenever we create a transaction on Metamask, it is validated locally, and then it is sent to an Ethereum node to which it communicates with. That node broadcasts the transaction to the whole Ethereum Network, and now we can track the transaction with it's transaction id or hash.
