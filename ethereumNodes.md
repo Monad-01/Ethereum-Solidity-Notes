@@ -104,3 +104,15 @@ There are two types of Ethereum Accounts
 ### **Behind the Scenes of a Transaction**
 
 - So whenever we create a transaction on Metamask, it is validated locally, and then it is sent to an Ethereum node to which it communicates with. That node broadcasts the transaction to the whole Ethereum Network, and now we can track the transaction with it's transaction id or hash.
+
+---
+
+## GAS GAS GAS
+
+- **Gas** is the unit that measure the amount of computational effort, required to execute specific operations. Like a car needs gasoline to function, the Ethereum platform needs its gas to work.
+  
+- **Any transaction that modifies the blockchain in any way costs gas**. Any basic operation or data storage costs gas. This is why gas is so important to understand when learning about the Ethereum blockchain. 
+
+- The person that generates the transaction needs to pay the gas fees for it. They pay for the gas using ETH.
+
+- Gas fees also help keep the Ethereum Network secure because it prevents a hacker from attacking the network with a DoS attack because they have to pay money for each basic operation.
