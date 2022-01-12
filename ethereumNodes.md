@@ -116,3 +116,10 @@ There are two types of Ethereum Accounts
 - The person that generates the transaction needs to pay the gas fees for it. They pay for the gas using ETH.
 
 - Gas fees also help keep the Ethereum Network secure because it prevents a hacker from attacking the network with a DoS attack because they have to pay money for each basic operation.
+
+### Why there are "Gas Wars"?
+
+One thing a new person entering crypto usually thinks about is, why are the Gas Prices this high? Do I really need to pay 100/200/300 Gwei per unit of gas? The *short answer* is no, you are not forced to pay that much for gas. You could actually try to make a transaction where you only pay 10 Gwei per unit of gas.
+
+The *real answer* is that your transaction will not only fail, it won't be included within the new block. This is because miners will sort and then select the transactions that are waiting to be mined by their gas price. The higher the gas price, the more likely miners in the network will **select your transaction to be added to the block**.
+
