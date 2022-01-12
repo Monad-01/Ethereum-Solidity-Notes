@@ -88,3 +88,15 @@ There are two types of Ethereum Accounts
 5. Code (Only for the contract account). This is the immutable EVM bytecode that gets triggered when transactions are made with the contract account
 
 6. Storage (Only for the contract account, empty by default).  
+
+### **Components of an Ethereum Address**
+
+- An EOA Address is derived from the last 20 bytes (160 bits) of the public key that are Keccak-256 hashed. It's represented in a hexadecimal format, which is often indicated explicitly by appending 0x to the address.
+
+  ***Example:*** *0xCC88135038293JN302N33N2N239b2b102...*
+
+- The address for an Ethereum Contract is deterministically computed from the address of its creator (sender) and how many transactions the creator has sent (nonce).
+
+- There is a lower-case address version and partial upper-case version that also contains a checksum.
+
+***Maybe add something about the private key here. I forgot tbh...
