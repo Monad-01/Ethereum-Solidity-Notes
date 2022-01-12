@@ -111,7 +111,7 @@ There are two types of Ethereum Accounts
 
 - **Gas** is the unit that measure the amount of computational effort, required to execute specific operations. Like a car needs gasoline to function, the Ethereum platform needs its gas to work.
   
-- **Any transaction that modifies the blockchain in any way costs gas**. Any basic operation or data storage costs gas. This is why gas is so important to understand when learning about the Ethereum blockchain. 
+- **Any transaction that modifies the blockchain in any way costs gas**. Any basic operation or data storage costs gas. This is why gas is so important to understand when learning about the Ethereum blockchain.
 
 - The person that generates the transaction needs to pay the gas fees for it. They pay for the gas using ETH.
 
