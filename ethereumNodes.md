@@ -123,3 +123,5 @@ One thing a new person entering crypto usually thinks about is, why are the Gas 
 
 The *real answer* is that your transaction will not only fail, it won't be included within the new block. This is because miners will sort and then select the transactions that are waiting to be mined by their gas price. The higher the gas price, the more likely miners in the network will **select your transaction to be added to the block**.
 
+>There is a limit to the number of transaction that can be included in a new block, and that limit is based on the gas price, which is dynamically set  by the network.
+
