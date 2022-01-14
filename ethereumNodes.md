@@ -117,6 +117,8 @@ There are two types of Ethereum Accounts
 
 - Gas fees also help keep the Ethereum Network secure because it prevents a hacker from attacking the network with a DoS attack because they have to pay money for each basic operation.
 
+- Each operation has a fixed amount of gas it costs to cast. 
+
 ### Why are there *"Gas Wars"*?
 
 One thing a new person entering crypto usually thinks about is, why are the Gas Prices this high? Do I really need to pay 100/200/300 Gwei per unit of gas? The *short answer* is no, you are not forced to pay that much for gas. You could make a transaction where you only pay 10 Gwei per unit of gas.
@@ -128,3 +130,6 @@ The *real answer* is that your transaction will not only fail, it won't be inclu
 Now using that information, what is stopping a whale from minting multiple times on an NFT drop or making multiple transactions within an application? ***It's the Gas.***
 
 Whales will try to fight each other in sought out digital collections by literally paying thousands of dollars worth in ETH to just make sure their transactions go through the blockchain. Other *normal users* will have to wait till the gas wars end or spend equally as much as the whales to confirm their transactions thus coining the term ***"Gas Wars***.
+
+
+***BE SURE TO ADD OP CODES FOR GAS TRANSACTIONS***
