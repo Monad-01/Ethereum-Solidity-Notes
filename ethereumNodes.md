@@ -202,3 +202,5 @@ ETH2 is an upgrade to the initial Ethereum protocol. It aims to increase the spe
 - To become a validator, you have to **stake or lock** an amount of ETH in a smart contract.
 - High performance hardware is not required to become a validator
 - Rewards are given to the validators because that's what keeps the chain running securely. The more ETH you stake, the more blocks you can validate.
+- A validator can lose ETH if he does bad things (going offline, failing to validate, etc...).
+- To conduct a 51% attack a validator needs to stake 51% of the staked ETH.
