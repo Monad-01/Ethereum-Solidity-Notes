@@ -193,11 +193,11 @@ ETH2 is an upgrade to the initial Ethereum protocol. It aims to increase the spe
 2. Sharding
 
 **Reason why ETH 2.0 is being developed:**
-- ETH 1.0 Is an energy consuming monster
 
-### PoS vs PoW
+- ETH 1.0 Is an energy consuming monsters
 
-**PoS (Proof of Stake)**
+### **PoS (Proof of Stake)**
+
 - Miners are called Validators.
 - To become a validator, you have to **stake or lock** an amount of ETH in a smart contract.
 - High performance hardware is not required to become a validator
