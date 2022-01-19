@@ -204,3 +204,12 @@ ETH2 is an upgrade to the initial Ethereum protocol. It aims to increase the spe
 - Rewards are given to the validators because that's what keeps the chain running securely. The more ETH you stake, the more blocks you can validate.
 - A validator can lose ETH if he does bad things (going offline, failing to validate, etc...).
 - To conduct a 51% attack a validator needs to stake 51% of the staked ETH.
+- Much less use of energy as well
+
+### **Sharding**
+
+- Sharding is phase 2 of the upgrade to Ethereum 2.0.
+- Sharding improves Ethereum scalability and capacity.
+- The blockchain is spread across 64 shard chains.
+- With sharding anyone can run a node (decentralization).
+
