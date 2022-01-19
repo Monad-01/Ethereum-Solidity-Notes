@@ -176,7 +176,6 @@ Transactions (Ex: Contract deployment, token transfer, etc...):
 - It must be mined, takes time
 - Returns a transaction id (hash) - txid
 
-
 Call(Ex: GetBalance)
 
 - Doesn't modify the blockchain
