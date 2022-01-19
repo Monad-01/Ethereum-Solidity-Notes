@@ -146,6 +146,10 @@ Transactions are the heart of the Ethereum Blockchain. Interacting with the Ethe
 - Contracts have the ability to send "messages" to other contracts.
 
 - **An EOA produces a transaction and a contract produces a message.**
+  
+- Ethereum 1.0 can process 15 transactions per seconds and Ethereum 2.0 will be able to process up to 100000 per second.
+
+- A block is considered final and forever added to the blockchain after at least 12 confirmations.
 
 ### **Life Cycle of an Ethereum Transaction**
 
@@ -162,3 +166,4 @@ Transactions are the heart of the Ethereum Blockchain. Interacting with the Ethe
 5. Miner finds a valid block by solving the PoW puzzle (or PoS) and adds the new block to the existing blockchain. The number of transactions in the block depends on the block gas limit.
 
 6. The miner node broadcasts the new block to all other nodes. All nodes execute the transactions from the new block, but only the miner gets paid. (block reward + transactions fee - gas).
+
