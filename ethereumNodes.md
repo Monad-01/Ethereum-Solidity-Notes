@@ -183,6 +183,18 @@ Call(Ex: GetBalance)
 - Doesn't have to be mined, instant execution
 - Returns a value
 
-
 ## **Ethereum 2.0**
-ETH2 is an upgrade to the intial Ethereum protocol.
+
+ETH2 is an upgrade to the initial Ethereum protocol. It aims to increase the speed, efficiency, and scalability.
+
+**ETH2 Major Upgrades:**
+
+1. PoS(Proof of Stake) instead of PoW(Proof of Work)
+2. Sharding
+
+**Reason why ETH 2.0 is being developed:**
+- ETH 1.0 Is an energy consuming monster
+
+### PoS vs PoW
+
+**PoS (Proof of Stake)
