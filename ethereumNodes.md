@@ -157,6 +157,7 @@ Transactions are the heart of the Ethereum Blockchain. Interacting with the Ethe
       - The Ethereum wallets connects to an Ethereum node, that will broadcast the signed transaction to its peers, and then those nodes will broadcast it to their other peers, and so on until it is broadcasted to the entire network.
   
 4. The transaction is added to the transaction pool and waits there to be validated by the miner. A minder node accepts the transaction. Ethereum Network has a mix of minder nodes and non-miner nodes.
+      - Once again, the transactions in the pool are sorted by gas price. And the miners will always prioritize the transactions with the higher gas price.
   
 5. Miner finds a valid block by solving the PoW puzzle (or PoS) and adds the new block to the existing blockchain. The number of transactions in the block depends on the block gas limit.
 
