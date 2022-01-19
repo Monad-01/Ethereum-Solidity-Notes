@@ -154,7 +154,8 @@ Transactions are the heart of the Ethereum Blockchain. Interacting with the Ethe
 2. The client signs the transaction with the private key and validates it locally
 
 3. The transaction is broadcasted to the network by the Ethereum Client and a transaction ID (txid) is returned
-
+      - The Ethereum wallets connects to an Ethereum node, that will broadcast the signed transaction to its peers, and then those nodes will broadcast it to their other peers, and so on until it is broadcasted to the entire network.
+  
 4. The transaction is added to the transaction pool and waits there to be validated by the miner. A minder node accepts the transaction. Ethereum Network has a mix of minder nodes and non-miner nodes.
   
 5. Miner finds a valid block by solving the PoW puzzle (or PoS) and adds the new block to the existing blockchain. The number of transactions in the block depends on the block gas limit.
