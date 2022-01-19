@@ -170,4 +170,16 @@ Transactions are the heart of the Ethereum Blockchain. Interacting with the Ethe
 ### **Transaction vs Call**
 
 Transactions (Ex: Contract deployment, token transfer, etc...):
+
 - Modifies the blockchain
+- Costs gas
+- It must be mined, takes time
+- Returns a transaction id (hash) - txid
+
+
+Call(Ex: GetBalance)
+
+- Doesn't modify the blockchain
+- It's free
+- Doesn't have to be mined, instant execution
+- Returns a value
