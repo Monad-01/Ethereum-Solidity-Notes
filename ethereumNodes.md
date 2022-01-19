@@ -182,3 +182,7 @@ Call(Ex: GetBalance)
 - It's free
 - Doesn't have to be mined, instant execution
 - Returns a value
+
+
+## **Ethereum 2.0**
+ETH2 is an upgrade to the intial Ethereum protocol.
