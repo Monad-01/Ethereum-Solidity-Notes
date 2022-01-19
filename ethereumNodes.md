@@ -167,3 +167,7 @@ Transactions are the heart of the Ethereum Blockchain. Interacting with the Ethe
 
 6. The miner node broadcasts the new block to all other nodes. All nodes execute the transactions from the new block, but only the miner gets paid. (block reward + transactions fee - gas).
 
+### **Transaction vs Call**
+
+Transactions (Ex: Contract deployment, token transfer, etc...):
+- Modifies the blockchain
