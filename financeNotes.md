@@ -45,7 +45,36 @@ Lets say there's one bot that is purposely selling stocks to drive the price dow
 
 Now imagine if one bot also managed to see the same opportunity as the other bot, and did the exact same thing it did. It will drive the stock down in price and eventually buy back in at a lower price and let the price rise up again before profiting.
 
-However... these bots would never profit. It would ultimately keep on driving this stock price down unless someone turned these bots off.
+However... these bots would never profit. It would ultimately keep on driving this stock price down unless someone turned these bots off, or there was code to make the bots stop if they realize they are in a recursive loop.
+
+Now these things don't really happen, but it is a warning to show how destructive these bots can be if they happen to malfunction.
+
+
         Footnote:
 
         1 - Y'know fud, but its for robots. 
+
+---
+
+## So you wanna get into HFT's (AKA: Becoming a Quant Developer)
+
+- Develop in C++/Python
+- Begin to understand Finance stuff
+- Start to understand opportunities in the market, and study what is happening
+- Just start trying to make some bots while working on all this
+
+Plus heres some helpful books:
+
+- Option Volatility and Pricing by Sheldon Natenberg
+
+- Dynamic Hedging
+
+- Frequently Asked Questions in Quantitative Finance (Second Edition) by Paul Wilmott
+
+- Python for Data Analysis
+
+- Introduction to Linear Algebra
+
+- Advances in Active Portfolio Management
+
+- Technical Analysis is Mostly Bullshit
