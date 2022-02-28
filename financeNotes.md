@@ -35,11 +35,17 @@ Instead of people making trades within the market, financial firms are taking ad
 
   - Quote Stuffing: Creating multiple bogus offers that will never get filled, they are just stuffing the market with terrible values to slow down other trading algorithms.
 
+## Downsides of HFT
 
-## Downsides of HFT 
+- The largest downsides I've seen when it comes to HFT is how these bots can negatively impact the actual financial market through technological drawbacks.
 
-- The larget downsides I've seen when it comes to HFT is how these bots can negatively impact the actual financial market.
+Ex: Recursion.
 
-        Footnote: 
+Lets say there's one bot that is purposely selling stocks to drive the price down on stocks that are already within a downtrend. It will eventually buy back in at a lower price and let the price rise up again before profiting.
+
+Now imagine if one bot also managed to see the same opportunity as the other bot, and did the exact same thing it did. It will drive the stock down in price and eventually buy back in at a lower price and let the price rise up again before profiting.
+
+However... these bots would never profit. It would ultimately keep on driving this stock price down unless someone turned these bots off.
+        Footnote:
 
         1 - Y'know fud, but its for robots. 
