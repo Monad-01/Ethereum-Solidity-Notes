@@ -12,7 +12,7 @@ Instead of people making trades within the market, financial firms are taking ad
 
 ***News Bots:***
 
-- These computer trading bots make trades based on the information they gather from the news / online articles / social media posts. 
+- These computer trading bots make trades based on the information they gather from the news / online articles / social media posts.
 
 - These bots will scan the words off these reports, and generate an idea of whether the news is positive or negative. Based off that data the bot will automatically decide on how to trade different types of stock almost instantly before other people have time to react.
 
@@ -22,11 +22,9 @@ Instead of people making trades within the market, financial firms are taking ad
 
 - These bots are the most popular among trading firms.
 
-
-
 ***Quant-Predator Bots: (Illegal by the way cause stock manipulation, but still interesting regardless)***
 
-- The name is exactly how it sounds... these bots prey on the other quant bots. 
+- The name is exactly how it sounds... these bots prey on the other quant bots.
 
 - These bots will try and identify the data points that quant bots are obtaining for their algorithm, and they will send out garbage data<sub>*1*</sub> that will throw off their trades, making them sell/buy and an unprofitable margin. And then these bots will capitalize on their mistakes and profit.
 
@@ -48,7 +46,6 @@ Now imagine if one bot also managed to see the same opportunity as the other bot
 However... these bots would never profit. It would ultimately keep on driving this stock price down unless someone turned these bots off, or there was code to make the bots stop if they realize they are in a recursive loop.
 
 Now these things don't really happen, but it is a warning to show how destructive these bots can be if they happen to malfunction.
-
 
         Footnote:
 
